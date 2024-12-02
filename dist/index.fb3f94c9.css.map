@@ -1,0 +1,1 @@
+{"mappings":";ACEA","sources":["UCwyYq","src/css/stylesheet.css"],"sourcesContent":[null,"@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');\n\n.poppins-bold {\n    font-family: \"Poppins\", serif;\n    font-weight: 700;\n    font-style: normal;\n}\n"],"names":[],"version":3,"file":"index.fb3f94c9.css.map","sourceRoot":"/__parcel_source_root/"}

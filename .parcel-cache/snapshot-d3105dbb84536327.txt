@@ -1,0 +1,11 @@
+10
+43/home/spkide/Documents/menu/recetaparatodos1732910322973646618 1
+40/home/spkide/Documents/menu/package.json1732910332063687154 0
+42/home/spkide/Documents/menu/src/js/main.js1732910191554059039 0
+34/home/spkide/Documents/menu/src/js1732910191554059039 1
+45/home/spkide/Documents/menu/package-lock.json1732910181799015302 0
+48/home/spkide/Documents/menu/src/scss/styles.scss1732910191554059039 0
+36/home/spkide/Documents/menu/src/scss1732910191554059039 1
+42/home/spkide/Documents/menu/src/index.html1732910212110151142 0
+31/home/spkide/Documents/menu/src1732910191554059039 1
+27/home/spkide/Documents/menu1732910325922659770 1

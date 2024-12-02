@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/3565418.png"> 
+    <title>Receta Para Todos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="scss/styles.scss">
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <header>
+      <div class="navbar navbar-expand-lg ms-3">
+        <h1 class="fw-bold">RECETA <span class="text-danger">PARA TODOS!</span></h1> 
+        <nav class="navbar navbar-expand-lg mx-auto container-sm justify-content-end">
+          <!-- Botón de hamburguesa (para pantallas pequeñas) -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Menú de navegación colapsable -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav list-unstyled d-flex">
+              <li class="nav-item mx-2"><a href="http://127.0.0.1:5501/src/index.html#inicio" class="nav-link text-white fw-bold">INICIO</a></li>
+              <li class="nav-item mx-2"><a href="#INFORMACIÓN" class="nav-link text-white fw-bold">INFORMACIÓN</a></li>
+              <li class="nav-item mx-2"><a href="#acerca de" class="nav-link text-white fw-bold">ACERCA DE</a></li>
+              <li class="nav-item mx-2"><a href="#contacto" class="nav-link text-white fw-bold">CONTACTANOS</a></li>
+              <li class="nav-item mx-2"><a href="#menu" class="nav-link text-white fw-bold">MENU</a></li>
+              <li class="nav-item mx-2"><a href="#sobre-nosotros" class="nav-link text-white fw-bold">SOBRE NOSOTROS</a></li>
+            </ul>
+            <!-- Íconos visibles solo en pantallas pequeñas (d-lg-none) -->
+            <div class="d-lg-none ms-3">
+              <a href="#" class="text-white mx-2">
+                <i class="fa-solid fa-list"></i> <!-- Ícono de lista -->
+              </a>
+              <a href="#" class="text-white mx-2">
+                <i class="fa-solid fa-right-to-bracket"></i> <!-- Ícono de login -->
+              </a>
+            </div>
+            <!-- Botón para ver el menú -->
+            <a href="#menu" class="btn btn-outline-dark fw-bold ms-3">VER NUESTRO MENÚ</a>
+          </div>
+        </nav>
+      </div>      
+    </header>    
+    <!-- Video con superposición oscura -->
+    <div class="position-relative">
+      <video src="img/Video de Producto Gastronómico - Vision Digital (1080p, h264, youtube).mp4" 
+        class="w-100" loop muted autoplay></video>
+      <!-- Superposición oscura -->
+      <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+      <!-- Texto sobre el video -->
+      <h1 class="position-absolute top-50 start-50 translate-middle text-white fw-bold text-center">
+        BIENVENIDO A <br> <div class="text-danger">RECETA PARA TODOS!
+          <h2 class="fw-bolder text-white">AQUI ENCONTRARAS RECETAS DELICIOSAS!</h2>
+        </div>
+      </h1>
+    </div>
+    <section id="INFORMACIÓN" class="mt-5 animate__animated">
+      <div class="container">
+        <h1 class="fw-bold text-center mb-4">INFORMACIÓN DE "RECETA PARA TODOS"</h1>
+        <div class="row">
+          <!-- Descripción -->
+          <div class="col-md-6">
+            <h3><strong>¿Quiénes somos?</strong></h3>
+            <p>
+              En <strong>"Receta para Todos"</strong>, creemos que la cocina no debería ser complicada ni intimidante. Nuestro objetivo es hacer que todos, desde principiantes hasta chefs experimentados, puedan disfrutar de recetas fáciles de seguir, deliciosas y con ingredientes accesibles.
+            </p>
+            <p>
+              Ofrecemos recetas que varían desde opciones rápidas para el desayuno hasta almuerzos y cenas más elaboradas. Nuestro compromiso es que cada receta sea simple de seguir, con instrucciones claras y fáciles de ejecutar, para que todo el mundo pueda disfrutar de la cocina en su hogar.
+            </p>
+            <p>
+              Nos encanta ayudar a las personas a explorar nuevas ideas culinarias y experimentar con ingredientes frescos y saludables. Queremos que la cocina sea divertida y gratificante para todos, sin importar el nivel de habilidad.
+            </p>
+          </div>
+    
+          <!-- Imagen -->
+          <div class="col-md-6">
+            <img src="img/plate-food-with-plate-food-with-red-sauce-yellow-sauce.jpg" alt="Recetas para todos" class="img-fluid rounded">
+          </div>
+        </div>
+    
+        <div class="row mt-4">
+          <!-- Qué ofrecemos -->
+          <div class="col-md-6">
+            <h3><strong>¿Qué ofrecemos?</strong></h3>
+            <p>
+              En <strong>"Receta para Todos"</strong>, nos especializamos en ofrecer recetas para todos los gustos y niveles de habilidad. Desde batidos energéticos hasta cenas completas, nuestras recetas están pensadas para ser fáciles de seguir y deliciosas.
+            </p>
+            <p>
+              Ofrecemos contenido variado para todos los momentos del día, incluyendo desayunos rápidos, comidas nutritivas y postres tentadores. Además, nuestras recetas están diseñadas para ser saludables, utilizando ingredientes frescos y de fácil acceso.
+            </p>
+            <p>
+              Además de recetas, ofrecemos consejos útiles sobre técnicas culinarias, recomendaciones para almacenar alimentos y cómo modificar las recetas según tus preferencias. Queremos que disfrutes cada momento en la cocina.
+            </p>
+          </div>
+          <!-- Video -->
+          <div class="col-md-6">
+            <video src="img/Food Reel 2019.mp4" autoplay muted loop class="video-1 border border-black rounded w-100"></video>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <section id="acerca de" class="animate__animated">
+      <div class="container">
+        <div class="row ms-4">
+          <!-- Columna para el Video -->
+          <div class="col-md-6 video-1">
+            <video src="img/CINEMATIC JAPANESE CUISINE B ROLL - HONYAKI ALL IN RECIPIES .mp4" autoplay muted loop muted class="video-1 border border-black rounded w-100"></video>
+          </div>
+          
+          <!-- Columna para el h1 y h3 -->
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h1 class="fw-bold">ACERCA DE NOSOTROS</h1>
+            <p>
+              En Receta para Todos, nos apasiona hacer que la cocina sea accesible para todos. Creemos que cocinar no debería ser complicado ni intimidante. Nuestro objetivo es ofrecer recetas fáciles de seguir, con ingredientes sencillos y deliciosos, para que cualquier persona, sin importar su experiencia, pueda disfrutar de la cocina en su hogar. Nuestra misión es inspirar a las personas a explorar nuevas recetas, aprender técnicas culinarias y disfrutar de la preparación de alimentos, todo mientras fomentamos el uso de ingredientes frescos y saludables.
+              <br><br>
+              ¡Únete a nosotros y descubre cómo cocinar puede ser divertido, fácil y, sobre todo, delicioso! Estamos comprometidos en hacer que cada comida sea un reflejo de amor y cuidado, y esperamos que disfrutes cada paso del proceso culinario tanto como nosotros.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="mt-5 animate__animated" style="background-color: #343a40;">
+      <div class="container">
+        <h1 class="fw-bold text-center mb-4" style="color: #dc3545;">CONTACTO</h1>
+        <div class="row">
+          <!-- Formulario de contacto -->
+          <div class="col-md-6">
+            <h3><strong style="color: #dc3545;">¿Tienes alguna pregunta?</strong></h3>
+            <p style="color: #f8f9fa;">
+              Estamos aquí para ayudarte. Si tienes alguna pregunta o inquietud sobre nuestras recetas, servicios o cualquier otro tema, no dudes en ponerte en contacto con nosotros. ¡Estaremos encantados de ayudarte!
+            </p>
+            <form>
+              <div class="mb-3">
+                <label for="nombre" class="form-label" style="color: #f8f9fa;"><strong>Nombre</strong></label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label" style="color: #f8f9fa;"><strong>Correo Electrónico</strong></label>
+                <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label" style="color: #f8f9fa;"><strong>Mensaje</strong></label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="background-color: #dc3545; border-color: #dc3545;"><strong>Enviar Mensaje</strong></button>
+            </form>
+          </div>
+    
+          <!-- Información de contacto -->
+          <div class="col-md-6">
+            <h3><strong style="color: #dc3545;">Información de Contacto</strong></h3>
+            <ul class="list-unstyled" style="color: #f8f9fa;">
+              <li><strong>Teléfono:</strong> +52 938 139 2821</li>
+              <li><strong>Correo Electrónico:</strong> contacto@recetaparatodos.com</li>
+              <li><strong>Dirección:</strong> Calle Manigua, Ciudad del carmen, campeche</li>
+              <li><strong>Redes Sociales:</strong>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" style="color: #ff0000;">Facebook</a></li>
+                  <li class="list-inline-item"><a href="#" style="color: #ff0000;">Instagram</a></li>
+                  <li class="list-inline-item"><a href="#" style="color: #ff0000;">Twitter</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="menu" class="mt-5 animate__animated" style="background-image: url(img/healthy-vegetables-kitchen.jpg);
+    height: 100vh; background-repeat: no-repeat; background-position: 0%; background-position-x: center; background-attachment: fixed; opacity: 0.8;">
+      <div class="container">
+        <h1 class="fw-bold text-center mb-4" style="color: #dc3545;">MENU</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/close-up-assortment-milkshakes-with-chocolate-fruits.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #dc3545;"><strong>Batidos</strong></h5>
+                <p class="card-text">Refrescantes batidos ideales para cualquier momento del día. ¡Deliciosos y fáciles de preparar!</p>
+                <a href="batidos.html" class="btn btn-primary" style="background-color: #dc3545; border-color: #dc3545;"><strong>Ver Recetas</strong></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/croissants-with-coffee-cutting-board-flat-lay.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #dc3545;"><strong>Desayunos</strong></h5>
+                <p class="card-text">Comienza el día con energía con nuestros deliciosos y fáciles desayunos.</p>
+                <a href="Desayunos.html" class="btn btn-primary" style="background-color: #dc3545; border-color: #dc3545;"><strong>Ver Recetas</strong></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/fried-chicken-with-mushrooms-rice.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #dc3545;"><strong>Comidas</strong></h5>
+                <p class="card-text">Recetas sabrosas y fáciles para almuerzos y cenas perfectas para cualquier ocasión.</p>
+                <a href="comidas.html" class="btn btn-primary" style="background-color: #dc3545; border-color: #dc3545;"><strong>Ver Recetas</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="sobre-nosotros" class="mt-5 animate__animated" style="background-image: url('img/fondo-sobre-nosotros.jpg'); background-size: cover; background-position: center;">
+      <div class="container text-white py-5" style="background-color: rgba(0, 0, 0, 0.6);">
+        <h1 class="fw-bold text-center mb-4" style="color: #dc3545;">SOBRE NOSOTROS</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <h3><strong>¿Quiénes somos?</strong></h3>
+            <p>
+              En <strong>"Receta para Todos"</strong>, somos un equipo apasionado por la cocina accesible para todos. Queremos que cocinar sea divertido y fácil, ofreciendo recetas sencillas y deliciosas para todos los niveles de habilidad.
+            </p>
+            <p>
+              Nuestra misión es inspirar a las personas a explorar nuevas recetas y técnicas culinarias mientras disfrutan de la cocina. Creemos que la comida tiene el poder de reunir a las personas y crear recuerdos inolvidables.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h3><strong>Lo que nos hace diferentes</strong></h3>
+            <p>
+              Lo que nos distingue es nuestra atención a la simplicidad y accesibilidad. No necesitas ser un chef profesional para cocinar nuestras recetas, solo ganas de aprender y disfrutar. Además, usamos ingredientes frescos y saludables que puedes encontrar fácilmente en tu tienda local.
+            </p>
+            <p>
+              Cada receta es una oportunidad para experimentar, aprender y divertirse en la cocina. Nos comprometemos a ofrecerte lo mejor y ayudarte a hacer de cada comida una experiencia memorable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <footer class="bg-dark text-white pt-5 pb-4" style="background-color: #343a40;">
+      <div class="container">
+        <div class="row">
+          <!-- Información de contacto -->
+          <div class="col-md-4">
+            <h5 class="fw-bold" style="color: #dc3545;">CONTACTO</h5>
+            <ul class="list-unstyled">
+              <li><strong>Teléfono:</strong>938 382 3020</li>
+              <li><strong>Correo Electrónico:</strong> contacto@recetaparatodos.com</li>
+              <li><strong>Dirección:</strong> Calle Ficticia 123, Ciudad del carmen, campeche</li>
+            </ul>
+          </div>
+    
+          <!-- Enlaces de redes sociales -->
+          <div class="col-md-4">
+            <h5 class="fw-bold" style="color: #dc3545;">SÍGUENOS EN</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none" style="color: #ff0000;">Facebook</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none" style="color: #ff0000;">Instagram</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none" style="color: #ff0000;">Twitter</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none" style="color: #ff0000;">YouTube</a>
+              </li>
+            </ul>
+          </div>
+    
+          <!-- Acerca de nosotros -->
+          <div class="col-md-4">
+            <h5 class="fw-bold" style="color: #dc3545;">SOBRE NOSOTROS</h5>
+            <p style="color: #f8f9fa;">En <strong>Receta para Todos</strong>, nos dedicamos a ofrecer recetas deliciosas y fáciles de seguir para todo el mundo. Nuestra misión es inspirarte a disfrutar de la cocina.</p>
+          </div>
+        </div>
+    
+        <!-- Derechos de autor -->
+        <div class="row mt-4">
+          <div class="col text-center">
+            <p class="mb-0" style="color: #f8f9fa;">&copy; 2024 Receta para Todos. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>     
+    <!-- Bootstrap JS -->
+     <script src="js/main.js"></script>
+     <script src="js/animation.js"></script>
+    <script src="https://kit.fontawesome.com/f27d463f08.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

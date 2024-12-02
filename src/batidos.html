@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/3565418.png"> 
+        <title>Receta Para Todos</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="scss/styles.scss">
+      </head>
+  <body>
+    <!-- Barra de navegación -->
+    <header>
+        <div class="navbar navbar-expand-lg ms-3">
+          <h1 class="fw-bold">RECETA <span class="text-danger">PARA TODOS!</span></h1> 
+          <nav class="navbar navbar-expand-lg mx-auto container-sm justify-content-end">
+            <!-- Botón de hamburguesa (para pantallas pequeñas) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú de navegación colapsable -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav list-unstyled d-flex">
+                <li class="nav-item mx-2"><a href="http://127.0.0.1:5501/src/index.html#inicio" class="nav-link text-white fw-bold">INICIO</a></li>
+                <li class="nav-item mx-2"><a href="http://127.0.0.1:5501/src/index.html#INFORMACI%C3%93N" class="nav-link text-white fw-bold">INFORMACIÓN</a></li>
+                <li class="nav-item mx-2"><a href="http://127.0.0.1:5501/src/index.html#acerca%20de" class="nav-link text-white fw-bold">ACERCA DE</a></li>
+                <li class="nav-item mx-2"><a href="http://127.0.0.1:5501/src/index.html#contacto" class="nav-link text-white fw-bold">CONTACTANOS</a></li>
+                <li class="nav-item mx-2"><a href="http://127.0.0.1:5501/src/index.html#menu" class="nav-link text-white fw-bold">MENU</a></li>
+                <li class="nav-item mx-2"><a href="http://127.0.0.1:5501/src/index.html#sobre-nosotros" class="nav-link text-white fw-bold">SOBRE NOSOTROS</a></li>
+              </ul>
+              <!-- Íconos visibles solo en pantallas pequeñas (d-lg-none) -->
+              <div class="d-lg-none ms-3">
+                <a href="#" class="text-white mx-2">
+                  <i class="fa-solid fa-list"></i> <!-- Ícono de lista -->
+                </a>
+                <a href="#" class="text-white mx-2">
+                  <i class="fa-solid fa-right-to-bracket"></i> <!-- Ícono de login -->
+                </a>
+              </div>
+              <!-- Botón para ver el menú -->
+              <a href="#menu" class="btn btn-outline-dark fw-bold ms-3">VER NUESTRO MENÚ</a>
+            </div>
+          </nav>
+        </div>      
+      </header>    
+<!-- Sección Batidos -->
+<section id="batidos" class="container mt-5">
+  <h2 class="text-center mb-4">Nuestros Batidos</h2>
+  <div class="row g-4">
+    <!-- Tarjeta 1: Batido de Piña -->
+    <div class="col-sm-6 col-md-4">
+      <div class="card h-100" data-bs-toggle="modal" data-bs-target="#batido1Modal">
+        <img src="img/batidos/piña.jpg" class="card-img-top rounded" alt="Batido de Piña">
+        <div class="card-body text-center">
+          <h5 class="card-title">Batido de Piña</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Batido 1 -->
+    <div class="modal fade" id="batido1Modal" tabindex="-1" aria-labelledby="batido1ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="batido1ModalLabel">Batido de Piña</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="img/batidos/batido-pina-fresca-vidrio-mesa-madera_1339-69192.jpg" class="img-fluid rounded" alt="Batido de Piña">
+              </div>
+              <div class="col-md-6">
+                <h6>Receta:</h6>
+                <ul>
+                  <li><strong>Ingredientes:</strong> Piña, leche de coco, azúcar, hielo.</li>
+                  <li><strong>Preparación:</strong> Mezcla todos los ingredientes hasta obtener una mezcla suave y cremosa.</li>
+                </ul>
+                <p>¡Un toque tropical con piña y leche de coco!</p>
+                <h6>Video de Preparación:</h6>
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.youtube-nocookie.com/embed/tU1qbzjpbqA" title="Video de Batido de Piña" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta 2: Batido de Durazno -->
+    <div class="col-sm-6 col-md-4">
+      <div class="card h-100" data-bs-toggle="modal" data-bs-target="#batido2Modal">
+        <img src="img/batidos/batido-de-durazno.jpg" class="card-img-top rounded" alt="Batido de Durazno">
+        <div class="card-body text-center">
+          <h5 class="card-title">Batido de Durazno</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Batido 2 -->
+    <div class="modal fade" id="batido2Modal" tabindex="-1" aria-labelledby="batido2ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="batido2ModalLabel">Batido de Durazno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="img/batidos/batido13.jpg" class="img-fluid rounded" alt="Batido de Durazno">
+              </div>
+              <div class="col-md-6">
+                <h6>Receta:</h6>
+                <ul>
+                  <li><strong>Ingredientes:</strong> Durazno, yogurt, miel, hielo.</li>
+                  <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta que quede suave.</li>
+                </ul>
+                <p>¡Un batido refrescante con un toque dulce!</p>
+                <h6>Video de Preparación:</h6>
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.youtube.com/embed/MQJ2kwRzT0g" title="Video de Batido de Durazno" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta 3: Batido de Uva -->
+    <div class="col-sm-6 col-md-4">
+      <div class="card h-100" data-bs-toggle="modal" data-bs-target="#batido3Modal">
+        <img src="img/batidos/images.jpeg" class="card-img-top rounded" alt="Batido de Uva">
+        <div class="card-body text-center">
+          <h5 class="card-title">Batido de Uva</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Batido 3 -->
+    <div class="modal fade" id="batido3Modal" tabindex="-1" aria-labelledby="batido3ModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="batido3ModalLabel">Batido de Uva</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="img/batidos/recipes_GR-R-V-00000867_nosx9tdeny9lbfqp578qxwej_large.jpg" class="img-fluid rounded" alt="Batido de Uva">
+              </div>
+              <div class="col-md-6">
+                <h6>Receta:</h6>
+                <ul>
+                  <li><strong>Ingredientes:</strong> Uvas, leche, azúcar, hielo.</li>
+                  <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta que la mezcla sea suave.</li>
+                </ul>
+                <p>¡El sabor de la uva fresca en cada sorbo!</p>
+                <h6>Video de Preparación:</h6>
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.youtube.com/embed/7G-sSct2KYU" title="Video de Batido de Uva" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="batidos2" class="container mt-5">
+    <h2 class="text-center mb-4">Batidos Especiales</h2>
+  
+    <div class="row">
+      <!-- Batido 4: Batido de Mango -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido4Modal">
+          <img src="img/batido15.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Mango</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 4: Batido de Mango -->
+      <div class="modal fade" id="batido4Modal" tabindex="-1" aria-labelledby="batido4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido4ModalLabel">Batido de Mango</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido15.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Mango, leche, azúcar, hielo.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta obtener una mezcla suave y cremosa.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido tropical con el sabor intenso del mango!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2lFwp2_kByQ" title="Batido de Mango" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Batido 5: Batido de Fresa -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido5Modal">
+          <img src="img/batido16.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Fresa</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 5: Batido de Fresa -->
+      <div class="modal fade" id="batido5Modal" tabindex="-1" aria-labelledby="batido5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido5ModalLabel">Batido de Fresa</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido16.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Fresas, yogurt natural, miel, hielo.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta obtener una textura cremosa y suave.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido delicioso con el sabor dulce de las fresas!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6D_dKQUgfrI" title="Batido de Fresa" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Batido 6: Batido de Plátano -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido6Modal">
+          <img src="img/batido17.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Plátano</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 6: Batido de Plátano -->
+      <div class="modal fade" id="batido6Modal" tabindex="-1" aria-labelledby="batido6ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido6ModalLabel">Batido de Plátano</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido17.jpg" class="img-fluid" alt="Batido de Plátano">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Plátano, leche, avena, miel.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta obtener una mezcla suave y cremosa.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido lleno de energía con el sabor suave del plátano!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1ZZJckF9rIY" title="Batido de Plátano" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section id="batidos3" class="container mt-5">
+    <h2 class="text-center mb-4">Batidos Refrescantes</h2>
+    <div class="row">
+      <!-- Batido 7: Batido Verde Detox -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido7Modal">
+          <img src="img/batido18.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido Verde Detox</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 7: Batido Verde Detox -->
+      <div class="modal fade" id="batido7Modal" tabindex="-1" aria-labelledby="batido7ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido7ModalLabel">Batido Verde Detox</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido18.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Espinaca, pepino, manzana verde, limón, jengibre, agua de coco.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta obtener una textura suave y refrescante.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido verde lleno de antioxidantes para purificar tu cuerpo!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pa3Ycm97JbI" title="Batido Verde Detox" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Batido 8: Batido de Piña y Coco -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido8Modal">
+          <img src="img/batido19.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Piña y Coco</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 8: Batido de Piña y Coco -->
+      <div class="modal fade" id="batido8Modal" tabindex="-1" aria-labelledby="batido8ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido8ModalLabel">Batido de Piña y Coco</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido19.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Piña, leche de coco, hielo, azúcar o miel al gusto.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta que quede suave y cremoso.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido tropical que combina la dulzura de la piña con la cremosidad del coco!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n9s6VIMVReM" title="Batido de Piña y Coco" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Batido 9: Batido de Acelga y Manzana -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido9Modal">
+          <img src="img/batido20.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Acelga y Manzana</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 9: Batido de Acelga y Manzana -->
+      <div class="modal fade" id="batido9Modal" tabindex="-1" aria-labelledby="batido9ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido9ModalLabel">Batido de Acelga y Manzana</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido20.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Acelga, manzana verde, limón, agua o jugo natural.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta obtener un batido fresco y saludable.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido lleno de fibra y vitaminas para mejorar tu digestión!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sNwlCmTCJmI" title="Batido de Acelga y Manzana" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="batidos2" class="container mt-5">
+        <div class="row">
+            <!-- Batido 4: Batido de Piña y Coco -->
+            <div class="col-md-4 mb-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#batido4Modal">
+                    <img src="img/batido4.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Batido de Piña y Coco</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Batido 4: Batido de Piña y Coco -->
+            <div class="modal fade" id="batido4Modal" tabindex="-1" aria-labelledby="batido4ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="batido4ModalLabel">Batido de Piña y Coco</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/batido4.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>Receta:</h6>
+                                    <ul>
+                                        <li><strong>Ingredientes:</strong> Piña, coco rallado, leche.</li>
+                                        <li><strong>Preparación:</strong> Mezcla todo hasta obtener una consistencia cremosa.</li>
+                                    </ul>
+                                    <p class="text-dark" style="color: black;">¡Ideal para un día caluroso!</p>
+                                    <h6>Video de Preparación:</h6>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyz" title="Batido de Piña y Coco" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Batido 5: Batido Verde -->
+            <div class="col-md-4 mb-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#batido5Modal">
+                    <img src="img/batido5.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Batido Verde</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Batido 5: Batido Verde -->
+            <div class="modal fade" id="batido5Modal" tabindex="-1" aria-labelledby="batido5ModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="batido5ModalLabel">Batido Verde</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/batido5.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>Receta:</h6>
+                                    <ul>
+                                        <li><strong>Ingredientes:</strong> Espinaca, manzana verde, limón, agua.</li>
+                                        <li><strong>Preparación:</strong> Licúa hasta obtener una bebida refrescante y energética.</li>
+                                    </ul>
+                                    <p class="text-dark" style="color: black;">¡Un boost de salud en cada sorbo!</p>
+                                    <h6>Video de Preparación:</h6>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyz" title="Batido Verde" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+</section>
+<section id="batidos4" class="container mt-5">
+    <h2 class="text-center mb-4">Batidos Energéticos</h2>
+  
+    <div class="row">
+      <!-- Batido 10: Batido de Plátano y Mantequilla de Maní -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido10Modal">
+          <img src="img/batido21.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Plátano y Mantequilla de Maní</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 10: Batido de Plátano y Mantequilla de Maní -->
+      <div class="modal fade" id="batido10Modal" tabindex="-1" aria-labelledby="batido10ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido10ModalLabel">Batido de Plátano y Mantequilla de Maní</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido21.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Plátano, mantequilla de maní, leche de almendras, miel o stevia.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta obtener un batido suave y cremoso.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido lleno de energía para comenzar el día con fuerza!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n9bSe40yyck" title="Batido de Plátano y Mantequilla de Maní" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Batido 11: Batido de Mora y Chía -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido11Modal">
+          <img src="img/batido22.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Mora y Chía</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 11: Batido de Mora y Chía -->
+      <div class="modal fade" id="batido11Modal" tabindex="-1" aria-labelledby="batido11ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido11ModalLabel">Batido de Mora y Chía</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido22.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Moras, semillas de chía, leche de almendras o yogurt natural, miel.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta obtener un batido espeso y lleno de antioxidantes.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido antioxidante perfecto para fortalecer el sistema inmunológico!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K8BfNTuOdnE" title="Batido de Mora y Chía" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Batido 12: Batido de Fresas y Yogurt -->
+      <div class="col-md-4 mb-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#batido12Modal">
+          <img src="img/batido23.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Batido de Fresas y Yogurt</h5>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Modal Batido 12: Batido de Fresas y Yogurt -->
+      <div class="modal fade" id="batido12Modal" tabindex="-1" aria-labelledby="batido12ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="batido12ModalLabel">Batido de Fresas y Yogurt</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Imagen del Batido -->
+                  <img src="img/batido23.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h6>Receta:</h6>
+                  <ul>
+                    <li><strong>Ingredientes:</strong> Fresas, yogurt natural, miel o stevia, hielo.</li>
+                    <li><strong>Preparación:</strong> Licúa todos los ingredientes hasta obtener una mezcla espesa y cremosa.</li>
+                  </ul>
+                  <p class="text-dark" style="color: black;">¡Un batido delicioso y cremoso para disfrutar en cualquier momento del día!</p>
+                  <h6>Video de Preparación:</h6>
+                  <!-- Video de YouTube -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kV9KrHHx0dE" title="Batido de Fresas y Yogurt" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section id="batidos1" class="container mt-5">
+    <div class="row">
+        <!-- Batido 1: Batido de Plátano -->
+        <div class="col-md-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#batido1Modal">
+                <img src="img/batido1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Batido de Plátano</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Batido 1: Batido de Plátano -->
+        <div class="modal fade" id="batido1Modal" tabindex="-1" aria-labelledby="batido1ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="batido1ModalLabel">Batido de Plátano</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="img/batido1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Receta:</h6>
+                                <ul>
+                                    <li><strong>Ingredientes:</strong> Plátano, leche, miel.</li>
+                                    <li><strong>Preparación:</strong> Licúa los ingredientes hasta obtener un batido suave.</li>
+                                </ul>
+                                <p class="text-dark" style="color: black;">¡Ideal para el desayuno o como merienda!</p>
+                                <h6>Video de Preparación:</h6>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyz" title="Batido de Plátano" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Batido 2: Batido de Fresas -->
+        <div class="col-md-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#batido2Modal">
+                <img src="img/batido2.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Batido de Fresas</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Batido 2: Batido de Fresas -->
+        <div class="modal fade" id="batido2Modal" tabindex="-1" aria-labelledby="batido2ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="batido2ModalLabel">Batido de Fresas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="img/batido2.jpg" class="img-fluid" alt="Batido de Fresas">
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Receta:</h6>
+                                <ul>
+                                    <li><strong>Ingredientes:</strong> Fresas, yogurt, miel.</li>
+                                    <li><strong>Preparación:</strong> Licúa todo hasta obtener un batido cremoso.</li>
+                                </ul>
+                                <p class="text-dark" style="color: black;">¡Un batido fresco y delicioso para cualquier hora!</p>
+                                <h6>Video de Preparación:</h6>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyz" title="Batido de Fresas" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Batido 3: Batido de Mango -->
+        <div class="col-md-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#batido3Modal">
+                <img src="img/batido3.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Batido de Mango</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Batido 3: Batido de Mango -->
+        <div class="modal fade" id="batido3Modal" tabindex="-1" aria-labelledby="batido3ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="batido3ModalLabel">Batido de Mango</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="img/batido3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Receta:</h6>
+                                <ul>
+                                    <li><strong>Ingredientes:</strong> Mango, leche de almendras, miel.</li>
+                                    <li><strong>Preparación:</strong> Mezcla los ingredientes hasta conseguir una textura suave.</li>
+                                </ul>
+                                <p class="text-dark" style="color: black;">¡Refrescante y natural!</p>
+                                <h6>Video de Preparación:</h6>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyz" title="Batido de Mango" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Vincula los scripts de Bootstrap -->
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+   <script src="https://kit.fontawesome.com/f27d463f08.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
